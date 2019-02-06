@@ -30,5 +30,3 @@ class Article {
 let articles = document
   .querySelectorAll(".article")
   .forEach(obj => new Article(obj));
-
-console.log("Hi Jordan");
